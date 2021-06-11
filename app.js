@@ -8,3 +8,12 @@ const helloWorld = new Vue ({
         takeAway2: "Data Binding: Establishing a connection between a piece of data and a template"
     }
 });
+
+const example = new Vue ({
+    el: '#example',
+    data: {
+        title: "Hello, Chewie!",
+        message: "This is your daily cat-firmation!",
+        name: "Chewie"
+    }
+})
