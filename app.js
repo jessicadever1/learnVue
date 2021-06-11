@@ -14,6 +14,11 @@ const example = new Vue ({
     data: {
         title: "Hello, Chewie!",
         message: "This is your daily cat-firmation!",
-        name: "Chewie"
+        name: "Chewie",
+        takeAway3: "Mustashe syntax is best for changing only one portion of data in an element",
+        img: {
+            src: "",
+            alt: "there be no image"
+        }
     }
 })
