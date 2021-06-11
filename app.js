@@ -1,6 +1,7 @@
 const helloWorld = new Vue ({
     el: '#helloVue',
     data: {
-        title: "Hello, world!"
+        title: "Hello, world!!!!",
+        message: "This is my first Vue template!"
     }
 });
