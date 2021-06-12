@@ -19,6 +19,7 @@ const example = new Vue ({
         img: {
             src: "",
             alt: "there be no image"
-        }
+        },
+        bah: "To be honest, I've been working since 8am, and now it's 9:25. PM."
     }
 })
