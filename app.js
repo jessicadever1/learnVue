@@ -30,6 +30,11 @@ const vocabTerm = new Vue ({
         vocab1: "Directive",
         vocab2: "Templating",
         vocab3: "Data Binding"
+    },
+    methods: {
+        seeDef: function () {
+            alert("try again later")
+        }
     }
 })
 

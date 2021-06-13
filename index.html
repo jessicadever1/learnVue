@@ -26,9 +26,9 @@
     </div> -->
     <section class="row marg5">
         <div id="vocab" class="column mw10">
-            <p>{{ vocab1 + ":" }}</p>
-            <p>{{ vocab2 + ":"}}</p>
-            <p>{{ vocab3 + ":"}}</p>
+            <p @click="seeDef">{{ vocab1 + ":" }}</p>
+            <p @click="seeDef">{{ vocab2 + ":"}}</p>
+            <p @click="seeDef">{{ vocab3 + ":"}}</p>
         </div>
         <div id="definitions" class="column">
             <p>{{ def1 }}</p>
