@@ -23,3 +23,21 @@ const example = new Vue ({
         bah: "To be honest, I've been working since 8am, and now it's 9:25. PM."
     }
 })
+
+const vocabTerm = new Vue ({
+    el:"#vocab",
+    data: {
+        vocab1: "Directive",
+        vocab2: "Templating",
+        vocab3: "Data Binding"
+    }
+})
+
+const vocabDef = new Vue({
+    el: "definitions",
+    data: {
+        def1: "Special instructions for Vue that allow you to define your app's actions & behaviors",
+        def2: "A representation for how you want to structure your app",
+        def3: "Establishing a connection between a piece of data and a template"
+    }
+})
