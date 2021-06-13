@@ -5,24 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <div id="helloVue">
+    <div id="helloVue" class="center column">
         <h1>{{ title }}</h1>
         <p>{{ message }}</p>
-        <p>{{ takeAway }}</p>
+        <!-- <p>{{ takeAway }}</p>
         <p>{{ takeAway1 }}</p>
         <p>{{ takeAway2 }}</p>
-        <p>{{ takeAway3 }}</p>
+        <p>{{ takeAway3 }}</p> -->
     </div>
-    <div id="example">
+    <!-- <div id="example">
         <h1 v-text="title"></h1>
         <h2>{{ title + ', ' + name.toUpperCase() }}, {{ name.toLowerCase() }}</h2>
         <p>{{ message }}</p>
         <img v-bind:src="img.src" v-bind:alt="img.alt">
         <img :src="img.src" :alt="img.alt">
         <p>{{ bah }}</p>
-    </div>
+    </div> -->
+    <section class="row marg5">
+        <div id="vocab" class="column mw10">
+            <p>{{ vocab1 + ":" }}</p>
+            <p>{{ vocab2 + ":"}}</p>
+            <p>{{ vocab3 + ":"}}</p>
+        </div>
+        <div id="definitions" class="column">
+            <p>{{ def1 }}</p>
+            <p>{{ def2 }}</p>
+            <p>{{ def3 }}</p>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="app.js"></script>
 </body>

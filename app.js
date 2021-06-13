@@ -34,7 +34,7 @@ const vocabTerm = new Vue ({
 })
 
 const vocabDef = new Vue({
-    el: "definitions",
+    el: "#definitions",
     data: {
         def1: "Special instructions for Vue that allow you to define your app's actions & behaviors",
         def2: "A representation for how you want to structure your app",

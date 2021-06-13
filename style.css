@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.mw10 {
+    min-width: 10rem;
+}
+
+.marg5 {
+    margin: 5rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
