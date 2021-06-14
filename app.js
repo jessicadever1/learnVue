@@ -28,21 +28,17 @@ const vocabTerm = new Vue ({
     el:"#vocab",
     data: {
         vocab1: "Directive",
+        def1: "Special instructions for Vue that allow you to define your app's actions & behaviors",
         vocab2: "Templating",
-        vocab3: "Data Binding"
+        def2: "A representation for how you want to structure your app",
+        vocab3: "Data Binding",
+        def3: "Establishing a connection between a piece of data and a template",
+        showDef: false,
     },
     methods: {
-        seeDef: function () {
-            alert("try again later")
+        toggleDef: function () {
+            this.showDef = !this.showDef;
         }
     }
 })
 
-const vocabDef = new Vue({
-    el: "#definitions",
-    data: {
-        def1: "Special instructions for Vue that allow you to define your app's actions & behaviors",
-        def2: "A representation for how you want to structure your app",
-        def3: "Establishing a connection between a piece of data and a template"
-    }
-})
