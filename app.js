@@ -35,7 +35,7 @@ const vocabTerm = new Vue ({
         def3: "Establishing a connection between a piece of data and a template",
         showDef: false,
         vocab4: "v-show",
-        def4: "shows or hides an element based on the previous value passed to the directive (ie, true or false)"
+        def4: "shows or hides an element based on the previous value passed to the directive (ie, true or false); Note: a blank or absent value is falsey"
     },
     methods: {
         toggleDef: function () {
