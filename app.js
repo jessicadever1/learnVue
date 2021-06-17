@@ -28,22 +28,26 @@ const vocab = [
     {
         title: "Directive",
         definition: "Special instructions for Vue that allow you to define your app's actions & behaviors",
-        showDef: false
+        showDef: false,
+        category: "Vue"
     }, 
     {
         title: "Templating",
         definition: "A representation for how you want to structure your app",
-        showDef: false
+        showDef: false,
+        category: "Vue"
     },
     {
         title: "Data Binding",
         definition: "Establishing a connection between a piece of data and a template",
-        showDef: false
+        showDef: false,
+        category: ""
     },
     {
         title: "v-show",
         definition: "shows or hides an element based on the previous value passed to the directive (ie, true or false); Note: a blank or absent value is falsey",
-        showDef: false
+        showDef: false,
+        category: "Vue"
     }
 ]
 
