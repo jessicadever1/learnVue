@@ -28,3 +28,21 @@
 .margL5 {
     margin-left: 5rem;
 }
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 5px;
+}
+
+li {
+    border: #eaeaea solid 1px;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: #95effe solid 5px;
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}

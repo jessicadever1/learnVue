@@ -24,22 +24,37 @@ const example = new Vue ({
     }
 })
 
+const vocab = [
+    {
+        title: "Directive",
+        definition: "Special instructions for Vue that allow you to define your app's actions & behaviors",
+        showDef: false
+    }, 
+    {
+        title: "Templating",
+        definition: "A representation for how you want to structure your app",
+        showDef: false
+    },
+    {
+        title: "Data Binding",
+        definition: "Establishing a connection between a piece of data and a template",
+        showDef: false
+    },
+    {
+        title: "v-show",
+        definition: "shows or hides an element based on the previous value passed to the directive (ie, true or false); Note: a blank or absent value is falsey",
+        showDef: false
+    }
+]
+
 const vocabTerm = new Vue ({
     el:"#vocab",
     data: {
-        vocab1: "Directive",
-        def1: "Special instructions for Vue that allow you to define your app's actions & behaviors",
-        vocab2: "Templating",
-        def2: "A representation for how you want to structure your app",
-        vocab3: "Data Binding",
-        def3: "Establishing a connection between a piece of data and a template",
-        showDef: false,
-        vocab4: "v-show",
-        def4: "shows or hides an element based on the previous value passed to the directive (ie, true or false); Note: a blank or absent value is falsey"
+        vocabulary: vocab
     },
     methods: {
-        toggleDef: function () {
-            this.showDef = !this.showDef;
+        toggleDef: function (vocab) {
+            vocab.showDef = !vocab.showDef;
         }
     }
 })
