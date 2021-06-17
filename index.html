@@ -21,7 +21,7 @@
                     <h3>{{vocab.title}}</h3>
                     <div v-show="vocab.showDef">
                         <p>{{ vocab.definition }}</p>
-                        
+                        <p v-if="vocab.category">Category: {{ vocab.category }}</p>
                     </div>
                 </li>
             </ul>
