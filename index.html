@@ -17,11 +17,12 @@
         <div id="vocab" class="column mw10">
             <ul>
                 <li v-for="vocab in vocabulary"
-                    @click="toggleDef(vocab)">
+                    @click="toggleDef(vocab)"
+                    style="width: 75rem;">
                     <h3>{{vocab.title}}</h3>
                     <div v-show="vocab.showDef">
                         <p>{{ vocab.definition }}</p>
-                        <p v-if="vocab.category">Category: {{ vocab.category }}</p>
+                        <p v-if="vocab.category"><strong>Category: </strong>{{ vocab.category }}</p>
                     </div>
                 </li>
             </ul>
