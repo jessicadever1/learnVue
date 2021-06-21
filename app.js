@@ -48,6 +48,12 @@ const vocab = [
         definition: "shows or hides an element based on the previous value passed to the directive (ie, true or false); Note: a blank or absent value is falsey",
         showDef: false,
         category: "Vue"
+    },
+    {
+        title: "The Four Pillars of Object Oriented Programming",
+        definition: "Encapsulation, Inheritance, Polymorphism & Abstraction",
+        showDef: false,
+        category: "Programming"
     }
 ]
 
