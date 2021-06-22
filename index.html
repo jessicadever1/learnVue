@@ -23,6 +23,7 @@
                     <div v-show="vocab.showDef">
                         <p>{{ vocab.definition }}</p>
                         <p v-if="vocab.category"><strong>Category: </strong>{{ vocab.category }}</p>
+                        <p v-else="vocab.category">Category: TBD</p>
                     </div>
                 </li>
             </ul>

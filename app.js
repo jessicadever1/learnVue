@@ -54,6 +54,12 @@ const vocab = [
         definition: "Encapsulation, Inheritance, Polymorphism & Abstraction",
         showDef: false,
         category: "Programming"
+    },
+    {
+        title: "Object-Oriented Programming",
+        definition: "programming in which data is stored in objects that can be manipulated using code, code a set of instructions known as methods",
+        showDef: false,
+        category: null
     }
 ]
 
